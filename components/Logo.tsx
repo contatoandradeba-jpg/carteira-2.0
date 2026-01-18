@@ -78,7 +78,7 @@ const Logo: React.FC<LogoProps> = ({ size = 32, version = 0 }) => {
         style={{ width: size, height: size }} 
         className="rounded-lg shadow-lg shadow-yellow-500/20 overflow-hidden border border-zinc-800"
       >
-        <img src={logoUrl} alt="Investidor 2.0 Logo" className="w-full h-full object-cover" />
+        <img src={logoUrl} alt="CARTEIRA 2.0 Logo" className="w-full h-full object-cover" />
       </div>
     );
   }
