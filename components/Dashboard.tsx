@@ -16,7 +16,7 @@ interface DashboardProps {
   earnings?: Earning[];
 }
 
-const Dashboard: React.FC<DashboardProps> = ({ summary, assets, usdRate, currencyMode, onRefresh, onAddClick, userName = "INTELIGENTE", earnings = [] }) => {
+const Dashboard: React.FC<DashboardProps> = ({ summary, assets, usdRate, currencyMode, onRefresh, onAddClick, userName = "Investimento", earnings = [] }) => {
   const navigate = useNavigate();
   
   const formatBRL = (val: number) => (val || 0).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
