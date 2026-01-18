@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { BrainCircuit } from 'lucide-react';
 
@@ -9,7 +10,7 @@ const Logo: React.FC = () => {
         <BrainCircuit size={16} /> Inteligência de Performance
       </div>
 
-      {/* Título fixo do app */}
+      {/* Título fixo */}
       <h1 className="text-3xl md:text-4xl font-black text-white tracking-tighter">
         CARTEIRA 2.0
       </h1>
