@@ -36,7 +36,7 @@ const Dashboard: React.FC<DashboardProps> = ({ summary, assets, usdRate, currenc
             <div className="space-y-1">
               <div className="flex items-center gap-2 text-yellow-500 font-black uppercase text-[10px] tracking-widest mb-1"><BrainCircuit size={14} /> Inteligência de Performance</div>
               <h2 className="text-3xl md:text-4xl font-black text-white tracking-tighter">Carteira de {userName}</h2>
-              <p className="text-[10px] font-black uppercase tracking-[0.4em] text-zinc-600">Patrimônio Consolidado INVESTIDOR 2.0</p>
+              <p className="text-[10px] font-black uppercase tracking-[0.4em] text-zinc-600">Patrimônio Consolidado CARTEIRA 2.0</p>
             </div>
           </div>
 
